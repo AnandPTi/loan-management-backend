@@ -17,7 +17,7 @@ router.post('/create', protect, createLoan);
 router.get('/user/loans', protect, getUserLoans);
 
 // Verifier routes
-router.get('/verifier/loans', protect, verifier, getVerifierLoans);
+//router.get('/verifier/loans', protect, verifier, getVerifierLoans);
 router.put('/verifier/update-status', protect, verifier, updateLoanStatus);
 
 // Admin routes
